@@ -1,6 +1,11 @@
-[workspace]
+[package]
+name = "grumpy"
+version = "0.1.0"
+authors = ["Alexander <ab667712@ohio.edu>"]
+edition = "2018"
 
-members = [
-  "grumpy",
-  "vm",
-]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+byteorder = "1"
+regex = "1"
